@@ -1,0 +1,21 @@
+<?php
+
+
+$url = "http://developers.agenciaideias.com.br/cotacoes/json";
+$json = file_get_contents($url);
+
+$cotacao = json_decode($json);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cotação do Dólar e Euro</title>
+</head>
+<body>
+	<h1>Cotações de Moeda</h1>
+	<h2>Cotação do Dólar</h2>
+	<h3>R$: <?= $cotacao->dolar->cotacao ?></h3>
+	<h2>Cotação do Euro</h2>
+	<h3>R$: <?= $cotacao->euro->cotacao ?></h3>
+</body>
+</html>

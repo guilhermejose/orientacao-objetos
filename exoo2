@@ -1,0 +1,27 @@
+<?php
+class Cliente
+{
+  public $nome;
+  public $codigo;
+}
+
+ $d1 = new Cliente();
+
+ $d1->nome = "Rafael Cosentino "  ;
+ $d1->codigo = "1 \n";
+
+ $d2->nome = "Jonas Hirata"  ;
+ $d2->codigo = "2 \n";
+
+ echo "\n";
+ echo "exoo2 \n";
+
+
+echo "Nome : $d1->nome";
+echo "codigo : $d1->codigo";
+
+
+echo "Nome : $d2->nome";
+echo "codigo : $d2->codigo \n";
+
+?>
