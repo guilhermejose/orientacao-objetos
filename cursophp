@@ -10,7 +10,7 @@ public $sala;
 
 $curso = new Curso();
 
-$curso->nome = "Algoritmos em Java";
+$curso->nome = "Algoritmos em Java" \ng;
 $curso->sala = "B05";
 
 echo "Nome : $curso->nome";

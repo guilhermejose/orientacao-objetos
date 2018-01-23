@@ -1,0 +1,23 @@
+<?php
+class CartaoDeCredito
+{
+  public $numero;
+  public $dataDeValidade;
+}
+
+ $d1 = new CartaoDeCredito();
+
+ $d1->dataDeValidade = "01/01/2013"  ;
+ $d1->numero = "111111";
+
+
+ echo "\n";
+ echo "exoo3 \n";
+
+
+echo "Validade : $d1->dataDeValidade \n";
+echo "Numero : $d1->numero \n \n";
+
+
+
+?>
